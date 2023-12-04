@@ -8,3 +8,10 @@ C:\Users\v\Downloads\pad-project\project\bin\Debug\net472\project.exe
 C:\Users\v\Downloads\pad-project\project\bin\Debug\net472\project.pdb
 C:\Users\v\Downloads\pad-project\project\obj\Debug\net472\project.exe
 C:\Users\v\Downloads\pad-project\project\obj\Debug\net472\project.pdb
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.csproj.AssemblyReference.cache
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.Properties.Resources.resources
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.csproj.GenerateResource.cache
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.csproj.CoreCompileInputs.cache
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.exe
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.pdb
