@@ -15,3 +15,6 @@ C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Deb
 C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.csproj.CoreCompileInputs.cache
 C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.exe
 C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.pdb
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\bin\Debug\net472\project.exe.config
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\bin\Debug\net472\project.exe
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\bin\Debug\net472\project.pdb
