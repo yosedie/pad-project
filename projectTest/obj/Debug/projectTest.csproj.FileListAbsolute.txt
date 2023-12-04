@@ -1,0 +1,15 @@
+C:\Users\v\Downloads\pad-project\projectTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\v\Downloads\pad-project\projectTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\v\Downloads\pad-project\projectTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\v\Downloads\pad-project\projectTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\v\Downloads\pad-project\projectTest\bin\Debug\projectTest.dll
+C:\Users\v\Downloads\pad-project\projectTest\bin\Debug\projectTest.pdb
+C:\Users\v\Downloads\pad-project\projectTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\v\Downloads\pad-project\projectTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\v\Downloads\pad-project\projectTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\v\Downloads\pad-project\projectTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\v\Downloads\pad-project\projectTest\obj\Debug\projectTest.csproj.AssemblyReference.cache
+C:\Users\v\Downloads\pad-project\projectTest\obj\Debug\projectTest.csproj.CoreCompileInputs.cache
+C:\Users\v\Downloads\pad-project\projectTest\obj\Debug\projectTest.csproj.CopyComplete
+C:\Users\v\Downloads\pad-project\projectTest\obj\Debug\projectTest.dll
+C:\Users\v\Downloads\pad-project\projectTest\obj\Debug\projectTest.pdb
