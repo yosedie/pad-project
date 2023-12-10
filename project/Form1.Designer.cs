@@ -37,6 +37,7 @@
             this.txtTransactionFilter = new System.Windows.Forms.TextBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,7 +76,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(470, 418);
+            this.btnEdit.Location = new System.Drawing.Point(366, 418);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 23);
             this.btnEdit.TabIndex = 3;
@@ -85,7 +86,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(551, 418);
+            this.btnDelete.Location = new System.Drawing.Point(447, 418);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 4;
@@ -95,7 +96,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(632, 418);
+            this.btnSave.Location = new System.Drawing.Point(528, 418);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 5;
@@ -131,11 +132,21 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Vendor ID : ";
             // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(609, 418);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.TabIndex = 9;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.txtTransactionFilter);
@@ -165,6 +176,7 @@
         private System.Windows.Forms.TextBox txtTransactionFilter;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 

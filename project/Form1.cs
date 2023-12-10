@@ -32,6 +32,9 @@ namespace project
             tableAdapterManager.PurchaseOrderHeaderTableAdapter.Fill(adventureWorksDataSet.PurchaseOrderHeader);
             tableAdapterManager.VendorTableAdapter.Fill(adventureWorksDataSet.Vendor);
 
+            // Tambahkan event handler untuk tombol "Clear"
+            btnClear.Click += btnClear_Click;
+
             // Panggil metode untuk menginisialisasi DataGridView
             InitializeDataGridView();
         }
@@ -69,7 +72,14 @@ namespace project
             tableAdapterManager.PurchaseOrderHeaderTableAdapter.Fill(adventureWorksDataSet.PurchaseOrderHeader);
             tableAdapterManager.VendorTableAdapter.Fill(adventureWorksDataSet.Vendor);
         }
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            // Bersihkan DataGridView
+            ClearDataGridView();
 
+            // Reset indeks baris terpilih
+            selectedRowIndex = -1;
+        }
         private void btnGenerateTransaction_Click_1(object sender, EventArgs e)
         {
             try
