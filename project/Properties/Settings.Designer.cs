@@ -22,5 +22,16 @@ namespace project.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=KATANAV\\SQLEXPRESS;Initial Catalog=AdventureWorks2019;Integrated Secu" +
+            "rity=True")]
+        public string AdventureWorks2019ConnectionString {
+            get {
+                return ((string)(this["AdventureWorks2019ConnectionString"]));
+            }
+        }
     }
 }
