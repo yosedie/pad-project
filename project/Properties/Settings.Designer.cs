@@ -33,5 +33,15 @@ namespace project.Properties {
                 return ((string)(this["AdventureWorks2019ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=AdventureWorks2019;Integrated Security=True")]
+        public string AdventureWorks2019ConnectionString1 {
+            get {
+                return ((string)(this["AdventureWorks2019ConnectionString1"]));
+            }
+        }
     }
 }
