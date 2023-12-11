@@ -47,18 +47,22 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(1, -35);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(777, 394);
+            this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(1036, 485);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnGenerateTransaction
             // 
-            this.btnGenerateTransaction.Location = new System.Drawing.Point(181, 419);
+            this.btnGenerateTransaction.Location = new System.Drawing.Point(241, 516);
+            this.btnGenerateTransaction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGenerateTransaction.Name = "btnGenerateTransaction";
-            this.btnGenerateTransaction.Size = new System.Drawing.Size(75, 23);
+            this.btnGenerateTransaction.Size = new System.Drawing.Size(100, 28);
             this.btnGenerateTransaction.TabIndex = 1;
             this.btnGenerateTransaction.Text = "Transaction";
             this.btnGenerateTransaction.UseVisualStyleBackColor = true;
@@ -66,9 +70,10 @@
             // 
             // btnGenerateReport
             // 
-            this.btnGenerateReport.Location = new System.Drawing.Point(262, 419);
+            this.btnGenerateReport.Location = new System.Drawing.Point(349, 516);
+            this.btnGenerateReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGenerateReport.Name = "btnGenerateReport";
-            this.btnGenerateReport.Size = new System.Drawing.Size(75, 23);
+            this.btnGenerateReport.Size = new System.Drawing.Size(100, 28);
             this.btnGenerateReport.TabIndex = 2;
             this.btnGenerateReport.Text = "Report";
             this.btnGenerateReport.UseVisualStyleBackColor = true;
@@ -76,9 +81,10 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(366, 418);
+            this.btnEdit.Location = new System.Drawing.Point(488, 514);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 23);
+            this.btnEdit.Size = new System.Drawing.Size(100, 28);
             this.btnEdit.TabIndex = 3;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
@@ -86,9 +92,10 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(447, 418);
+            this.btnDelete.Location = new System.Drawing.Point(596, 514);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(100, 28);
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -96,9 +103,10 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(528, 418);
+            this.btnSave.Location = new System.Drawing.Point(704, 514);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(100, 28);
             this.btnSave.TabIndex = 5;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -106,18 +114,20 @@
             // 
             // txtTransactionFilter
             // 
-            this.txtTransactionFilter.Location = new System.Drawing.Point(75, 421);
+            this.txtTransactionFilter.Location = new System.Drawing.Point(100, 518);
+            this.txtTransactionFilter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTransactionFilter.Name = "txtTransactionFilter";
-            this.txtTransactionFilter.Size = new System.Drawing.Size(100, 20);
+            this.txtTransactionFilter.Size = new System.Drawing.Size(132, 22);
             this.txtTransactionFilter.TabIndex = 6;
             this.txtTransactionFilter.Text = "VendorID";
             this.txtTransactionFilter.TextChanged += new System.EventHandler(this.txtTransactionFilter_TextChanged);
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(713, 418);
+            this.btnExit.Location = new System.Drawing.Point(951, 514);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.Size = new System.Drawing.Size(100, 28);
             this.btnExit.TabIndex = 7;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -126,26 +136,28 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 423);
+            this.label1.Location = new System.Drawing.Point(16, 521);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 13);
+            this.label1.Size = new System.Drawing.Size(76, 16);
             this.label1.TabIndex = 8;
             this.label1.Text = "Vendor ID : ";
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(609, 418);
+            this.btnClear.Location = new System.Drawing.Point(812, 514);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.Size = new System.Drawing.Size(100, 28);
             this.btnClear.TabIndex = 9;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExit);
@@ -156,6 +168,7 @@
             this.Controls.Add(this.btnGenerateReport);
             this.Controls.Add(this.btnGenerateTransaction);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "FormU";
             this.Load += new System.EventHandler(this.Form1_Load);

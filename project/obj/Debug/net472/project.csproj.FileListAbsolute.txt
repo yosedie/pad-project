@@ -32,3 +32,5 @@ C:\Users\obert\Source\Repos\yosedie\pad-project\project\obj\Debug\net472\project
 C:\Users\obert\Source\Repos\yosedie\pad-project\project\obj\Debug\net472\project.csproj.GenerateResource.cache
 C:\Users\obert\Source\Repos\yosedie\pad-project\project\obj\Debug\net472\project.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\obert\Source\Repos\yosedie\pad-project\project\obj\Debug\net472\project.csproj.CoreCompileInputs.cache
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.Form1.resources
+C:\Users\jblbl\OneDrive\Desktop\semester3\PAD\Proyek\pad-project\project\obj\Debug\net472\project.Form2.resources

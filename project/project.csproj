@@ -22,10 +22,15 @@
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="AdventureWorks2019DataSet.Designer.cs">
+    <Compile Update="CrystalReport1.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>AdventureWorks2019DataSet.xsd</DependentUpon>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+    </Compile>
+    <Compile Update="CrystalReportAllPurchasing.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CrystalReportAllPurchasing.rpt</DependentUpon>
     </Compile>
     <Compile Update="Properties\Settings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -36,7 +41,14 @@
   <ItemGroup>
     <None Update="AdventureWorks2019DataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>AdventureWorks2019DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </None>
+    <None Update="CrystalReportAllPurchasing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportAllPurchasing.cs</LastGenOutput>
     </None>
     <None Update="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
