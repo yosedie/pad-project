@@ -102,16 +102,9 @@ namespace project
 
         private void btnGenerateReport_Click(object sender, EventArgs e)
         {
-            try
-            {
-                ClearDataGridView();
-                dataGridView1.DataSource = adventureWorksDataSet.Vendor;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error generating report: " + ex.Message);
-            }
-            RefreshData();
+           Form3 report = new Form3();
+           this.Close();   
+           report.ShowDialog();
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
