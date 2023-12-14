@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MXEfYaVEU5lxR4Noy+jFmG8BiunxwkX3y30Nr9hCS8EIwGb2PCzkbKDEXu8AiZaG6nn036Qm0Zpf1amlN3mX4A==",
+  "dgSpecHash": "o45o8XiOE1bw2WZ4dIjqv+i2yWI7FVeuLXqLku4CGQNG9eF/GYSCvjaPnKExTg0H321yGXVW7gLboOVl22U6bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\v\\Downloads\\pad-project\\projectTest\\projectTest.csproj",
+  "projectFilePath": "C:\\Users\\obert\\Source\\Repos\\yosedie\\pad-project\\projectTest\\projectTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\v\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
-    "C:\\Users\\v\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",
-    "C:\\Users\\v\\.nuget\\packages\\mstest.testadapter\\2.2.10\\mstest.testadapter.2.2.10.nupkg.sha512",
-    "C:\\Users\\v\\.nuget\\packages\\mstest.testframework\\2.2.10\\mstest.testframework.2.2.10.nupkg.sha512"
+    "C:\\Users\\obert\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
+    "C:\\Users\\obert\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",
+    "C:\\Users\\obert\\.nuget\\packages\\mstest.testadapter\\2.2.10\\mstest.testadapter.2.2.10.nupkg.sha512",
+    "C:\\Users\\obert\\.nuget\\packages\\mstest.testframework\\2.2.10\\mstest.testframework.2.2.10.nupkg.sha512"
   ],
   "logs": []
 }

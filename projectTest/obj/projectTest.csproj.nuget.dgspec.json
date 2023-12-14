@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\v\\Downloads\\pad-project\\projectTest\\projectTest.csproj": {}
+    "C:\\Users\\obert\\Source\\Repos\\yosedie\\pad-project\\projectTest\\projectTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\v\\Downloads\\pad-project\\projectTest\\projectTest.csproj": {
+    "C:\\Users\\obert\\Source\\Repos\\yosedie\\pad-project\\projectTest\\projectTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\v\\Downloads\\pad-project\\projectTest\\projectTest.csproj",
+        "projectUniqueName": "C:\\Users\\obert\\Source\\Repos\\yosedie\\pad-project\\projectTest\\projectTest.csproj",
         "projectName": "projectTest",
-        "projectPath": "C:\\Users\\v\\Downloads\\pad-project\\projectTest\\projectTest.csproj",
-        "packagesPath": "C:\\Users\\v\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\v\\Downloads\\pad-project\\projectTest\\obj\\",
+        "projectPath": "C:\\Users\\obert\\Source\\Repos\\yosedie\\pad-project\\projectTest\\projectTest.csproj",
+        "packagesPath": "C:\\Users\\obert\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\obert\\Source\\Repos\\yosedie\\pad-project\\projectTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\v\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\obert\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
