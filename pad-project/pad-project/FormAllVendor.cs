@@ -19,13 +19,14 @@ namespace pad_project
 
         private void FormAllVendor_Load(object sender, EventArgs e)
         {
-            CrystalReport1 vend = new CrystalReport1(); 
-            crystalReportViewer1.ReportSource = vend;
+            
         }
 
         private void buttonCreateReport_Click(object sender, EventArgs e)
         {
-
+            CrystalReport1 vend = new CrystalReport1();
+            vend.SetDatabaseLogon("", "", ".", " AdventureWorks2019DataSet");
+            crystalReportViewer1.ReportSource = vend;
         }
 
         private void buttonBack_Click(object sender, EventArgs e)

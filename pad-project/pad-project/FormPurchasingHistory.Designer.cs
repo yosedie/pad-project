@@ -30,12 +30,6 @@
         {
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.button1 = new System.Windows.Forms.Button();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
-            this.comboBoxEmployee = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.buttonBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -44,75 +38,20 @@
             this.crystalReportViewer1.ActiveViewIndex = -1;
             this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crystalReportViewer1.Location = new System.Drawing.Point(26, 88);
+            this.crystalReportViewer1.Location = new System.Drawing.Point(26, 42);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.Size = new System.Drawing.Size(745, 344);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(745, 365);
             this.crystalReportViewer1.TabIndex = 15;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(657, 51);
+            this.button1.Location = new System.Drawing.Point(654, 413);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(117, 25);
             this.button1.TabIndex = 14;
             this.button1.Text = "Create Report";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(272, 50);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(155, 22);
-            this.dateTimePicker2.TabIndex = 13;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(240, 55);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 16);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "s/d";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(79, 50);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(155, 22);
-            this.dateTimePicker1.TabIndex = 11;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 55);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 16);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Date";
-            // 
-            // comboBoxEmployee
-            // 
-            this.comboBoxEmployee.FormattingEnabled = true;
-            this.comboBoxEmployee.Items.AddRange(new object[] {
-            "Taylor Swift",
-            "Harry Styles",
-            "Coldplay",
-            "BTS"});
-            this.comboBoxEmployee.Location = new System.Drawing.Point(98, 18);
-            this.comboBoxEmployee.Name = "comboBoxEmployee";
-            this.comboBoxEmployee.Size = new System.Drawing.Size(278, 24);
-            this.comboBoxEmployee.TabIndex = 9;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 16);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Employee";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // buttonBack
             // 
@@ -132,17 +71,10 @@
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.crystalReportViewer1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBoxEmployee);
-            this.Controls.Add(this.label1);
             this.Name = "FormPurchasingHistory";
             this.Text = "FormPurchasingHistory";
             this.Load += new System.EventHandler(this.FormPurchasingHistory_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -150,12 +82,6 @@
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBoxEmployee;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonBack;
     }
 }

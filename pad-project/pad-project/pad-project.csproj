@@ -125,7 +125,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrystalReportAllPurchasing.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>CrystalReportAllPurchasing1.cs</LastGenOutput>
+      <LastGenOutput>CrystalReportAllPurchasing2.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="CrystalReportMostExpenxivePurchasing.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
