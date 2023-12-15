@@ -135,7 +135,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.TextBox txtVendorID;
-        private System.Windows.Forms.TextBox txtPurchaseOrderID;
+        internal System.Windows.Forms.TextBox txtVendorID;
+        internal System.Windows.Forms.TextBox txtPurchaseOrderID;
     }
 }

@@ -17,24 +17,24 @@ namespace pad_project
             InitializeComponent();
         }
 
-        private void buttonBack_Click(object sender, EventArgs e)
+        internal void buttonBack_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void buttonAllVendor_Click(object sender, EventArgs e)
+        internal void buttonAllVendor_Click(object sender, EventArgs e)
         {
            FormAllVendor Vendor = new FormAllVendor();   
            Vendor.ShowDialog();
         }
 
-        private void buttonPurchasingHistory_Click(object sender, EventArgs e)
+        internal void buttonPurchasingHistory_Click(object sender, EventArgs e)
         {
             FormPurchasingHistory PurchasingHistory = new FormPurchasingHistory();   
             PurchasingHistory.ShowDialog();
         }
 
-        private void buttonMostExpensivePurchase_Click(object sender, EventArgs e)
+        internal void buttonMostExpensivePurchase_Click(object sender, EventArgs e)
         {
             FormMostExpensivePurchase expensivePurchase = new FormMostExpensivePurchase();
             expensivePurchase.ShowDialog();

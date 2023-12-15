@@ -24,14 +24,14 @@ namespace pad_project
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        internal void button1_Click(object sender, EventArgs e)
         {
             CrystalReportAllPurchasing rep = new CrystalReportAllPurchasing();
             crystalReportViewer1.ReportSource = rep;
 
         }
 
-        private void buttonBack_Click(object sender, EventArgs e)
+        internal void buttonBack_Click(object sender, EventArgs e)
         {
             FormReportMenu menu = new FormReportMenu();
             menu.Show(this);    

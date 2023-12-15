@@ -67,14 +67,14 @@ namespace pad_project
 
         }
 
-        private void btnCancel_Click_1(object sender, EventArgs e)
+        internal void btnCancel_Click_1(object sender, EventArgs e)
         {
             // Penanganan klik tombol Cancel
             MessageBox.Show("Pengeditan dibatalkan.");
             this.Close();
         }
 
-        private void btnSave_Click_1(object sender, EventArgs e)
+        internal void btnSave_Click_1(object sender, EventArgs e)
         {
             try
             {
