@@ -19,14 +19,16 @@ namespace pad_project
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
-            FormReportMenu menu = new FormReportMenu(); 
+            Form1 menu = new Form1(); 
             menu.ShowDialog();
             this.Close();
         }
 
         private void buttonAllVendor_Click(object sender, EventArgs e)
         {
-           
+           FormAllVendor Vendor = new FormAllVendor();   
+           Vendor.ShowDialog();
+           this.Close();
         }
 
         private void buttonPurchasingHistory_Click(object sender, EventArgs e)

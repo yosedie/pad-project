@@ -22,5 +22,17 @@ namespace pad_project
             CrystalReport1 vend = new CrystalReport1(); 
             crystalReportViewer1.ReportSource = vend;
         }
+
+        private void buttonCreateReport_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            FormReportMenu menu = new FormReportMenu();
+            menu.Show(this);
+            this.Close();
+        }
     }
 }
