@@ -15,7 +15,7 @@ namespace pad_project
     {
         private AdventureWorks2019DataSet adventureWorksDataSet;
         private TableAdapterManager tableAdapterManager;
-        private int selectedRowIndex = -1;
+        internal int selectedRowIndex = -1;
 
         public Form1()
         {
@@ -39,7 +39,7 @@ namespace pad_project
             InitializeDataGridView();
         }
 
-        private void InitializeDataGridView()
+        internal void InitializeDataGridView()
         {
             // DataGridView properties
             dataGridView1.AutoGenerateColumns = true;
@@ -49,7 +49,7 @@ namespace pad_project
             dataGridView1.CellClick += dataGridView1_CellClick;
         }
 
-        private void ClearDataGridView()
+        internal void ClearDataGridView()
         {
             // Membersihkan DataGridView sebelum menampilkan data baru
             dataGridView1.DataSource = null;
@@ -100,7 +100,7 @@ namespace pad_project
             RefreshData();
         }
 
-        private void btnGenerateReport_Click(object sender, EventArgs e)
+        internal void btnGenerateReport_Click(object sender, EventArgs e)
         {
             FormReportMenu report = new FormReportMenu();
             report.ShowDialog();
@@ -251,6 +251,20 @@ namespace pad_project
             {
                 Application.Exit(); // Keluar dari aplikasi
             }
+        }
+
+        public void btnGenerateTransaction_Click_1(object value1, object value2)
+        {
+
+        }
+
+        public void btnClear_Click(object value1, object value2)
+        {
+
+        }
+        public int GetSelectedRowIndex()
+        {
+            return selectedRowIndex;
         }
     }
 }

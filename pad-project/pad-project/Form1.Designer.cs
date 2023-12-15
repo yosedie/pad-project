@@ -187,7 +187,7 @@
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnGenerateReport;
         private System.Windows.Forms.Button btnGenerateTransaction;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        internal System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
