@@ -53,6 +53,7 @@
             this.crystalReportViewer1.Name = "crystalReportViewer1";
             this.crystalReportViewer1.Size = new System.Drawing.Size(776, 395);
             this.crystalReportViewer1.TabIndex = 21;
+            this.crystalReportViewer1.Load += new System.EventHandler(this.crystalReportViewer1_Load);
             // 
             // buttonCreateReport
             // 
@@ -68,11 +69,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(225, 13);
+            this.label1.Location = new System.Drawing.Point(263, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(329, 20);
+            this.label1.Size = new System.Drawing.Size(256, 20);
             this.label1.TabIndex = 23;
-            this.label1.Text = "All Most Expensive purchasing Report";
+            this.label1.Text = "All Vendor purchasing Report";
             // 
             // FormMostExpensivePurchase
             // 
@@ -84,7 +85,7 @@
             this.Controls.Add(this.crystalReportViewer1);
             this.Controls.Add(this.buttonCreateReport);
             this.Name = "FormMostExpensivePurchase";
-            this.Text = "FormMostExpensivePurchase";
+            this.Text = "FormAllVendorPurchase";
             this.Load += new System.EventHandler(this.FormMostExpensivePurchase_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

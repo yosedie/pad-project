@@ -52,6 +52,28 @@ namespace pad_project
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancel_Click_1(object sender, EventArgs e)
+        {
+            // Penanganan klik tombol Cancel
+            MessageBox.Show("Pengeditan dibatalkan.");
+            this.Close();
+        }
+
         private void btnSave_Click_1(object sender, EventArgs e)
         {
             try
@@ -69,13 +91,6 @@ namespace pad_project
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
-        }
-
-        private void btnCancel_Click_1(object sender, EventArgs e)
-        {
-            // Penanganan klik tombol Cancel
-            MessageBox.Show("Pengeditan dibatalkan.");
-            this.Close();
         }
     }
 }

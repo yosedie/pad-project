@@ -19,8 +19,6 @@ namespace pad_project
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
-            Form1 menu = new Form1(); 
-            menu.ShowDialog();
             this.Close();
         }
 
@@ -28,21 +26,18 @@ namespace pad_project
         {
            FormAllVendor Vendor = new FormAllVendor();   
            Vendor.ShowDialog();
-           this.Close();
         }
 
         private void buttonPurchasingHistory_Click(object sender, EventArgs e)
         {
             FormPurchasingHistory PurchasingHistory = new FormPurchasingHistory();   
             PurchasingHistory.ShowDialog();
-            this.Close();
         }
 
         private void buttonMostExpensivePurchase_Click(object sender, EventArgs e)
         {
             FormMostExpensivePurchase expensivePurchase = new FormMostExpensivePurchase();
-            expensivePurchase.ShowDialog(); 
-            this.Close();   
+            expensivePurchase.ShowDialog();
         }
     }
 }

@@ -26,13 +26,18 @@ namespace pad_project
 
         private void buttonCreateReport_Click(object sender, EventArgs e)
         {
-
+            CachedCrystalReportMostExpenxivePurchasing rep = new CachedCrystalReportMostExpenxivePurchasing();
+            crystalReportViewer1.ReportSource = rep;
         }
 
         private void FormMostExpensivePurchase_Load(object sender, EventArgs e)
         {
-            CachedCrystalReportMostExpenxivePurchasing rep =  new CachedCrystalReportMostExpenxivePurchasing(); 
-            crystalReportViewer1.ReportSource = rep;    
+            
+        }
+
+        private void crystalReportViewer1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

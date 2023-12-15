@@ -104,7 +104,6 @@ namespace pad_project
         {
             FormReportMenu report = new FormReportMenu();
             report.ShowDialog();
-            this.Close();
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
@@ -213,10 +212,7 @@ namespace pad_project
 
         private void btnExit_Click_1(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Apakah Anda yakin ingin keluar?", "Konfirmasi Exit", MessageBoxButtons.YesNo) == DialogResult.Yes)
-            {
-                Application.Exit(); // Keluar dari aplikasi
-            }
+            
         }
 
         private void txtTransactionFilter_TextChanged(object sender, EventArgs e)
@@ -247,6 +243,14 @@ namespace pad_project
                 MessageBox.Show("Error generating transaction: " + ex.Message + " Masukan VendorID, Contoh:1492");
             }
             RefreshData();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Apakah Anda yakin ingin keluar?", "Konfirmasi Exit", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                Application.Exit(); // Keluar dari aplikasi
+            }
         }
     }
 }

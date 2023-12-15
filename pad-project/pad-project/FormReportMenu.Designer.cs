@@ -50,7 +50,7 @@
             this.buttonMostExpensivePurchase.Name = "buttonMostExpensivePurchase";
             this.buttonMostExpensivePurchase.Size = new System.Drawing.Size(174, 23);
             this.buttonMostExpensivePurchase.TabIndex = 6;
-            this.buttonMostExpensivePurchase.Text = "Most Expensive Purchase";
+            this.buttonMostExpensivePurchase.Text = "All Vendor Purchase";
             this.buttonMostExpensivePurchase.UseVisualStyleBackColor = true;
             this.buttonMostExpensivePurchase.Click += new System.EventHandler(this.buttonMostExpensivePurchase_Click);
             // 
