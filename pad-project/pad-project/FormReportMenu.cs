@@ -37,5 +37,12 @@ namespace pad_project
             PurchasingHistory.ShowDialog();
             this.Close();
         }
+
+        private void buttonMostExpensivePurchase_Click(object sender, EventArgs e)
+        {
+            FormMostExpensivePurchase expensivePurchase = new FormMostExpensivePurchase();
+            expensivePurchase.ShowDialog(); 
+            this.Close();   
+        }
     }
 }

@@ -16,5 +16,23 @@ namespace pad_project
         {
             InitializeComponent();
         }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            FormReportMenu menu = new FormReportMenu();
+            menu.Show(this);
+            this.Close();
+        }
+
+        private void buttonCreateReport_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormMostExpensivePurchase_Load(object sender, EventArgs e)
+        {
+            CachedCrystalReportMostExpenxivePurchasing rep =  new CachedCrystalReportMostExpenxivePurchasing(); 
+            crystalReportViewer1.ReportSource = rep;    
+        }
     }
 }

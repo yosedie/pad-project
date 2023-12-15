@@ -34,7 +34,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox = new System.Windows.Forms.ComboBox();
+            this.comboBoxEmployee = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -57,6 +57,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "Create Report";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dateTimePicker2
             // 
@@ -90,27 +91,28 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "Date";
             // 
-            // comboBox
+            // comboBoxEmployee
             // 
-            this.comboBox.FormattingEnabled = true;
-            this.comboBox.Items.AddRange(new object[] {
+            this.comboBoxEmployee.FormattingEnabled = true;
+            this.comboBoxEmployee.Items.AddRange(new object[] {
             "Taylor Swift",
             "Harry Styles",
             "Coldplay",
             "BTS"});
-            this.comboBox.Location = new System.Drawing.Point(79, 18);
-            this.comboBox.Name = "comboBox";
-            this.comboBox.Size = new System.Drawing.Size(348, 24);
-            this.comboBox.TabIndex = 9;
+            this.comboBoxEmployee.Location = new System.Drawing.Point(98, 18);
+            this.comboBoxEmployee.Name = "comboBoxEmployee";
+            this.comboBoxEmployee.Size = new System.Drawing.Size(278, 24);
+            this.comboBoxEmployee.TabIndex = 9;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(26, 21);
+            this.label1.Location = new System.Drawing.Point(23, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 16);
+            this.label1.Size = new System.Drawing.Size(69, 16);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Artist";
+            this.label1.Text = "Employee";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // buttonBack
             // 
@@ -120,6 +122,7 @@
             this.buttonBack.TabIndex = 16;
             this.buttonBack.Text = "Back";
             this.buttonBack.UseVisualStyleBackColor = true;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // FormPurchasingHistory
             // 
@@ -133,7 +136,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox);
+            this.Controls.Add(this.comboBoxEmployee);
             this.Controls.Add(this.label1);
             this.Name = "FormPurchasingHistory";
             this.Text = "FormPurchasingHistory";
@@ -151,7 +154,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox;
+        private System.Windows.Forms.ComboBox comboBoxEmployee;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonBack;
     }
